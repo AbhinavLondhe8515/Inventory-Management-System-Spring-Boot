@@ -4,7 +4,7 @@ node(){
 
  try {
         stage('Checkout Code'){
-          checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'GitHubCred', url: 'https://github.com/shlokabari01/Inventory-Management-System-Spring-Boot.git']])
+          checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'gitcreds', url: 'https://github.com/AbhinavLondhe8515/Inventory-Management-System-Spring-Boot.git']])
         }
 
  
